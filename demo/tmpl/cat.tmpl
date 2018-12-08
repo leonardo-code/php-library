@@ -1,0 +1,17 @@
+<TMPL_INCLUDE NAME="inc_txt/head.txt">
+
+
+<B>Categoria: <TMPL_VAR NAME=CAT></B>
+<BR><BR>
+
+Subcategories: 
+<TMPL_IF NAME=LOOP_SUBCAT>
+	<TMPL_LOOP NAME=LOOP_SUBCAT>
+	  <br>
+		<a href="subcat_<TMPL_VAR NAME=ID>_<TMPL_VAR NAME=NAME_CAT>_<TMPL_VAR NAME=NAME_URL>"><TMPL_VAR NAME=NAME></a>
+	</TMPL_LOOP>
+<TMPL_ELSE>
+	<BR>No Subcategories. <a href=".">Go back to the index.</a>
+</TMPL_IF>
+
+<TMPL_INCLUDE NAME="inc_txt/foot.txt">
