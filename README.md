@@ -2,7 +2,7 @@
 A light and fast php web template you can use to separate presentation and logic layer. 
 
 
-#Faq:
+# Faq:
 
 ::What is it? 
 
@@ -19,9 +19,9 @@ Other frameworks don't have tags in <ABCD> normal HTML standard, so you can work
 Yes: it's completely free and open. 
 
 
-Enjoy it. I do.
+# Enjoy it. I do.
 
-          Leonardo L.
+Leonardo L.
           
           
           
