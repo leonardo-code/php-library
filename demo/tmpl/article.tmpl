@@ -1,0 +1,13 @@
+<TMPL_INCLUDE NAME="inc_txt/head.txt">
+
+<a href="javascript:history.back()">Back</a>
+<B>Category: <a href="cat_<TMPL_VAR NAME=ID_CAT>_<TMPL_VAR NAME=CAT>"><TMPL_VAR NAME=CAT></a>
+<BR>Subcategory :  <a href="subcat_<TMPL_VAR NAME=ID_SUBCAT>_<TMPL_VAR NAME=CAT>_<TMPL_VAR NAME=SUBCAT_NAME_URL>"><TMPL_VAR NAME=SUBCAT_NAME></a>
+</B>
+<BR><BR>
+
+	<div class="title"><TMPL_VAR NAME=title></div>
+
+	<TMPL_VAR NAME=DESCRIPTION>
+	
+<TMPL_INCLUDE NAME="inc_txt/foot.txt">
